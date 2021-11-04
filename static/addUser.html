@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <h1>zadanie: newsletter</h1>
+    <form action="/handleForm" method="POST">
+        <label for="fname" class="label">nick:</label>
+        <input type="text" name="nick" class="area"><br>
+        <label for="lname" class="label">email:</label>
+        <input type="email" name="email" class="area"><br><br>
+        <input type="submit" value= "submit" class="wyslij">
+    </form>
+    <br>
+    <a href="./removeUserBySelect ">usuń email z użyciem selecta</a>
+    <br>
+    <a href="./removeUserByRadio">usun email z użyciem radio</a>
+    <br>
+    <a href="./removeUserByCheckbox">usun email-e z użyciem checkbox-ów</a>
+</body>
+
+</html>
